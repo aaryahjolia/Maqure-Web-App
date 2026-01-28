@@ -1,45 +1,47 @@
-.get_credit_page_main_div{
+.get_credit_page_main_div {
     margin: 4rem auto;
     width: 70%;
     /* border: 1px solid red; */
     text-align: center;
 }
 
-.get_credit_page_main_div h1{
+.get_credit_page_main_div h1 {
     font-size: 5rem;
     margin-top: 8rem;
 }
 
-.get_credit_page_main_div p{
+.get_credit_page_main_div p {
     font-size: 3rem;
 }
 
-.get_credit_page_p{
+.get_credit_page_p {
     font-size: 1.4rem;
     text-align: center;
     margin-top: 2rem;
 }
 
-.get_credit_page_p_link{
+.get_credit_page_p_link {
     /* color: #00bfff; */
     color: var(--blue);
 }
-.get_credit_page_p_link:hover{
+
+.get_credit_page_p_link:hover {
     color: gray;
     /* border-bottom: 1px solid gray; */
 }
 
-@media only screen and (max-width: 768px){
-    .get_credit_page_main_div{
+@media only screen and (max-width: 768px) {
+    .get_credit_page_main_div {
         width: 85%;
     }
 
-    .get_credit_page_main_div h1{
+    .get_credit_page_main_div h1 {
         font-size: 3rem;
         text-align: center;
-        
+
     }
-    .get_credit_page_p{
+
+    .get_credit_page_p {
         width: 80%;
         margin: auto;
         margin-top: 2rem;

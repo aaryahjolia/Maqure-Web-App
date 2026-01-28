@@ -1,41 +1,46 @@
-@media only screen and (max-width:600px){
-    .home_page_main_content{
+@media only screen and (max-width:600px) {
+    .home_page_main_content {
         margin: 10.5rem 1rem;
         margin-bottom: 0;
         width: 90%;
         text-align: center;
     }
-    
-    .home_page_main_content h1{
+
+    .home_page_main_content h1 {
         font-size: 2.1rem;
         color: var(--blue);
     }
-    .home_page_main_content p{
+
+    .home_page_main_content p {
         margin: 1.8rem 0;
         margin-bottom: 3rem;
         font-size: 1.5rem;
         color: grey;
     }
-    .background_image{
+
+    .background_image {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 0px 18rem;
         /* margin-top: 5rem; */
     }
 
-    .what_we_do_main_box{
+    .what_we_do_main_box {
         padding-bottom: 1rem;
     }
-    .what_we_do_heading{
+
+    .what_we_do_heading {
         width: 100%;
         text-align: center;
         margin-bottom: 3rem;
     }
-    .home_page_blue_background, .home_page_blue_background_2{
+
+    .home_page_blue_background,
+    .home_page_blue_background_2 {
         width: 100%;
     }
 
-    .contact_us_button{
+    .contact_us_button {
         font-size: 1rem;
         display: table;
         margin: 2rem auto;
@@ -43,15 +48,16 @@
         text-align: center;
     }
 
-    .home_page_section_2_cards{
-        flex-direction: column;   
+    .home_page_section_2_cards {
+        flex-direction: column;
         width: 85%;
         margin: 0 auto;
         margin-top: 1rem;
         /* border: 1px solid red; */
         justify-content: center;
     }
-    .home_page_section_2_card{
+
+    .home_page_section_2_card {
         width: 95%;
         /* border: 1px solid red; */
         margin: 2rem auto;
@@ -59,24 +65,25 @@
         height: auto;
     }
 
-    .home_page_section_2_card_overlay p{
+    .home_page_section_2_card_overlay p {
         color: black;
         font-weight: bold;
         font-size: 1.3rem;
         margin-bottom: 1.3rem;
     }
 
-    .home_page_section_2_card h2 img{
+    .home_page_section_2_card h2 img {
         width: 11%;
     }
-    .home_page_section_2_heading{
+
+    .home_page_section_2_heading {
         text-align: center;
         /* margin: 3rem 0; */
         margin-top: 7rem;
         font-size: 2.6rem;
     }
 
-    .our_partners_heading{
+    .our_partners_heading {
         text-align: center;
         margin: 4rem auto;
         /* font-family: VisbyRound_Heavy; */
@@ -86,71 +93,84 @@
         width: 85%;
 
     }
-    .our_partners_box{
+
+    .our_partners_box {
         width: 85%;
         padding: 1.5rem;
         margin-top: 3rem;
         background-color: #ddf5fd;
     }
-    .our_partners_box h1{
+
+    .our_partners_box h1 {
         text-align: center;
         font-size: 1.8rem;
         margin: 2rem 0;
     }
-    .our_partners_box p{
+
+    .our_partners_box p {
         font-size: 1.5rem;
         margin: 3rem 0;
     }
 
-    .our_partners_box_cards{
+    .our_partners_box_cards {
         width: 85%;
         margin: 0 auto;
         flex-direction: column;
     }
-    .our_partners_box_card{
+
+    .our_partners_box_card {
         width: 100%;
         margin: 2rem 0;
         background-color: var(--blue);
     }
-    .our_partners_box_button{
+
+    .our_partners_box_button {
         margin: 3rem auto;
     }
 
-    .user_testimonials{
+    .user_testimonials {
         width: 100%;
         margin-top: 3rem;
         margin-bottom: 6rem;
     }
-    .user_testimonials h1{
+
+    .user_testimonials h1 {
         border-bottom: 2px solid gray;
         padding-bottom: 1rem;
         text-align: center;
         width: 85%;
         margin: 3rem auto 1rem auto;
     }
-    .user_testimonials_main_box{
+
+    .user_testimonials_main_box {
         flex-direction: column;
         width: 100%;
-        
+
     }
-    .user_testimonial_box_1,.user_testimonial_box_2{
+
+    .user_testimonial_box_1,
+    .user_testimonial_box_2 {
         width: 100%;
         padding: 1rem;
     }
-    .user_testimonial_box_2 p{
+
+    .user_testimonial_box_2 p {
         text-align: center;
         font-size: 1.5rem;
         padding: 0 1.4rem;
         font-weight: bold;
     }
-    .user_testimonial_box_2 h1{
+
+    .user_testimonial_box_2 h1 {
         display: none;
     }
-    .user_testimonial_box_2 p:nth-child(3){
+
+    .user_testimonial_box_2 p:nth-child(3) {
         font-size: 1.4rem;
         margin: 1.7rem 0;
     }
-    .user_testimonial_box_1{
+
+    .user_testimonial_box_1 {
         background-color: transparent;
         box-shadow: none;
         display: flex;
@@ -158,53 +178,61 @@
         align-items: center;
     }
 
-    .user_testimonial_box_2 h1{
+    .user_testimonial_box_2 h1 {
         margin: 0 auto;
         font-size: 3rem;
         width: 3rem;
         padding: 0;
     }
-    .user_testimonial_box_2 img{
+
+    .user_testimonial_box_2 img {
         display: block;
         margin: 0 auto;
     }
 
-    .contact_us_main_box{
+    .contact_us_main_box {
         width: 85%;
         margin-top: 4rem;
     }
-    .contact_us_main_box h1{
+
+    .contact_us_main_box h1 {
         border-bottom: 2px solid gray;
         padding-bottom: 1rem;
     }
-    .contact_us_box{
+
+    .contact_us_box {
         flex-direction: column;
     }
-    .contact_us_form_box{
+
+    .contact_us_form_box {
         /* border: 1px solid red; */
         width: 100%;
     }
-    .contact_us_form_section{
+
+    .contact_us_form_section {
         /* border: 1px solid green; */
         margin: 0 auto;
         flex-direction: column;
     }
-    .contact_us_form_section_3 input:nth-child(2){
-        margin: 1.2rem 0;
-    }
-    .contact_us_form_section input{
+
+    .contact_us_form_section_3 input:nth-child(2) {
         margin: 1.2rem 0;
     }
 
-    .contact_us_submit_button_div{
+    .contact_us_form_section input {
+        margin: 1.2rem 0;
+    }
+
+    .contact_us_submit_button_div {
         margin-top: 3rem;
     }
 
-    .contact_us_info_box{
+    .contact_us_info_box {
         width: 100%;
         margin-top: 5rem;
     }
-    .contact_us_info_box_address{
+
+    .contact_us_info_box_address {
         margin: 0 auto;
         display: block;
     }

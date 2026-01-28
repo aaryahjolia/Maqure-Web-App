@@ -1,6 +1,6 @@
 import React from 'react'
 import "../CSS/ErrorPage.css"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function ErrorPage() {
   document.title = "Maqure | Page Not Found"

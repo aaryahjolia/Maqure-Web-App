@@ -44,8 +44,8 @@ function Sellers() {
           <div className="sellers_page_section_2_card">
             <div className="sellers_page_section_2_card_image_div">
               <img src={SecondLogoSellers} alt="Logo" />
-            </div>   
-            <h1>Initiate Leads</h1>         
+            </div>
+            <h1>Initiate Leads</h1>
           </div>
           <div className="sellers_page_section_2_card">
             <div className="sellers_page_section_2_card_image_div">
@@ -63,42 +63,42 @@ function Sellers() {
       </div>
 
       <div className="sellers_page_section_3_main_div display_none_to_mobile">
-        <h1 className="sellers_page_section_3_main_div_heading">How <span style={{color: "var(--blue)"}}>MAQURE</span> increases your business multifold?</h1>
+        <h1 className="sellers_page_section_3_main_div_heading">How <span style={{ color: "var(--blue)" }}>MAQURE</span> increases your business multifold?</h1>
         <div className="sellers_page_section_3_box">
           <img src={Section3Sellers} alt="" />
         </div>
       </div>
 
       <div className="sellers_page_why_prefer_maqure_main_div" id="why_sellers_prefer_maqure">
-        <h1>Why Sellers prefer <span style={{color : "var(--blue)"}}>MAQURE ?</span></h1>
-          <div className="sellers_page_why_prefer_maqure_box">
-            <div className="sellers_page_why_prefer_maqure_box_2">
-              <div className="sellers_page_why_prefer_maqure_box_2_subbox">
-                <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
-                  <img src={Prefer_Sellers_1} alt="" />
-                </div>
-                <p>Maqure guarantees upfront payment within 15 days.</p>
+        <h1>Why Sellers prefer <span style={{ color: "var(--blue)" }}>MAQURE ?</span></h1>
+        <div className="sellers_page_why_prefer_maqure_box">
+          <div className="sellers_page_why_prefer_maqure_box_2">
+            <div className="sellers_page_why_prefer_maqure_box_2_subbox">
+              <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
+                <img src={Prefer_Sellers_1} alt="" />
               </div>
-              <div className="sellers_page_why_prefer_maqure_box_2_subbox">
-                <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
-                  <img src={Prefer_Sellers_2} alt="" />
-                </div>
-                <p>Maqure charges &#8377;0 as a platform cost.</p>
+              <p>Maqure guarantees upfront payment within 15 days.</p>
+            </div>
+            <div className="sellers_page_why_prefer_maqure_box_2_subbox">
+              <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
+                <img src={Prefer_Sellers_2} alt="" />
               </div>
-              <div className="sellers_page_why_prefer_maqure_box_2_subbox">
-                <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
-                  <img src={Prefer_Sellers_3} alt="" />
-                </div>
-                <p>Maqure ensures dedicated logistical support for deliveries.</p>
+              <p>Maqure charges &#8377;0 as a platform cost.</p>
+            </div>
+            <div className="sellers_page_why_prefer_maqure_box_2_subbox">
+              <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
+                <img src={Prefer_Sellers_3} alt="" />
               </div>
-              <div className="sellers_page_why_prefer_maqure_box_2_subbox">
-                <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
-                  <img src={Prefer_Sellers_4} alt="" />
-                </div>
-                <p>Maqure offers large kity of national & international clientele.</p>
+              <p>Maqure ensures dedicated logistical support for deliveries.</p>
+            </div>
+            <div className="sellers_page_why_prefer_maqure_box_2_subbox">
+              <div className="sellers_page_why_prefer_maqure_box_2_subbox_img">
+                <img src={Prefer_Sellers_4} alt="" />
               </div>
+              <p>Maqure offers large kity of national & international clientele.</p>
             </div>
           </div>
+        </div>
       </div>
 
       {/* FAQ Section */}
@@ -107,20 +107,20 @@ function Sellers() {
         <div className="sellers_page_faq_main_box">
           <div className="sellers_page_faq_box sellers_page_faq_box_1">
             <div className="sellers_page_faq_box_heading">
-              <h1>Still got <span style={{color : "var(--blue)"}}>questions?</span> Find <span style={{color : "var(--blue)"}}>answers</span> here.</h1>
+              <h1>Still got <span style={{ color: "var(--blue)" }}>questions?</span> Find <span style={{ color: "var(--blue)" }}>answers</span> here.</h1>
               {/* <h1>Find answers here.</h1> */}
             </div>
 
             <FAQAccordion
-              question1 = "Does Maqure charge any subscription fees?"
-              answer1 = "No, as of now, It is completely free to operate and use the platform of Maqure."
-              question2 = "What is the payment policy of Maqure?"
-              answer2 = "Maqure is working on upfront payment facility, wherein, we settle the payment within 15 days of successful material delivery."
-              question3 = "Is Maqure taking care of logistics?"
-              answer3 = "Yes, Maqure provides real time freight service with a live order tracking facility"
-              question4 = "Will Maqure provide access to international clientele?"
-              answer4 = "Maqure is building an exclusive exporting platform to attract international buyers."
-              question5 = "Have any other questions?"
+              question1="Does Maqure charge any subscription fees?"
+              answer1="No, as of now, It is completely free to operate and use the platform of Maqure."
+              question2="What is the payment policy of Maqure?"
+              answer2="Maqure is working on upfront payment facility, wherein, we settle the payment within 15 days of successful material delivery."
+              question3="Is Maqure taking care of logistics?"
+              answer3="Yes, Maqure provides real time freight service with a live order tracking facility"
+              question4="Will Maqure provide access to international clientele?"
+              answer4="Maqure is building an exclusive exporting platform to attract international buyers."
+              question5="Have any other questions?"
             />
 
           </div>
@@ -146,8 +146,8 @@ function Sellers() {
           <div className="sellers_page_section_2_card">
             <div className="sellers_page_section_2_card_image_div">
               <img src={SecondLogoSellers} alt="Logo" />
-            </div>   
-            <h1>Initial Leads</h1>         
+            </div>
+            <h1>Initial Leads</h1>
           </div>
           <div className="sellers_page_section_2_card">
             <div className="sellers_page_section_2_card_image_div">

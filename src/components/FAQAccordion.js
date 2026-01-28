@@ -28,7 +28,7 @@ function FAQAccordion(props) {
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
                 >
-                    <Typography className="accordion_heading" id="panel1" style={{fontWeight : "bold"}}>{props.question1}</Typography>
+                    <Typography className="accordion_heading" id="panel1" style={{ fontWeight: "bold" }}>{props.question1}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
@@ -43,7 +43,7 @@ function FAQAccordion(props) {
                     aria-controls="panel2bh-content"
                     id="panel2bh-header"
                 >
-                    <Typography className="accordion_heading" id="panel2" style={{fontWeight : "bold"}}>{props.question2}</Typography>
+                    <Typography className="accordion_heading" id="panel2" style={{ fontWeight: "bold" }}>{props.question2}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
@@ -58,7 +58,7 @@ function FAQAccordion(props) {
                     aria-controls="panel3bh-content"
                     id="panel3bh-header"
                 >
-                    <Typography className="accordion_heading" id="panel3" style={{fontWeight : "bold"}}>{props.question3}</Typography>
+                    <Typography className="accordion_heading" id="panel3" style={{ fontWeight: "bold" }}>{props.question3}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
@@ -73,7 +73,7 @@ function FAQAccordion(props) {
                     aria-controls="panel4bh-content"
                     id="panel4bh-header"
                 >
-                    <Typography className="accordion_heading" id="panel4" style={{fontWeight : "bold"}}>{props.question4}</Typography>
+                    <Typography className="accordion_heading" id="panel4" style={{ fontWeight: "bold" }}>{props.question4}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
@@ -87,13 +87,13 @@ function FAQAccordion(props) {
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel5bh-content"
                     id="panel5bh-header"
-                    // style={{borderBottom: "1px solid red"}}
+                // style={{borderBottom: "1px solid red"}}
                 >
-                    <Typography className="accordion_heading" id="panel5" style={{fontWeight : "bold"}}>{props.question5}</Typography>
+                    <Typography className="accordion_heading" id="panel5" style={{ fontWeight: "bold" }}>{props.question5}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <a href="/#contact_us" style={{color: "var(--blue)"}} onClick={handleContactUsClick}>Click here</a> to fill the form to schedule a call back or E-mail us your query on <a href="mailto:pranav@maqure.com" style={{color: "var(--blue)"}}>pranav@maqure.com</a>
+                        <a href="/#contact_us" style={{ color: "var(--blue)" }} onClick={handleContactUsClick}>Click here</a> to fill the form to schedule a call back or E-mail us your query on <a href="mailto:pranav@maqure.com" style={{ color: "var(--blue)" }}>pranav@maqure.com</a>
                     </Typography>
                 </AccordionDetails>
             </Accordion>

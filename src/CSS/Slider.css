@@ -45,7 +45,7 @@
     /* background: black;    */
     color: var(--blue);
     position: absolute;
-    width: 50px;    
+    width: 50px;
     z-index: -2000;
     font-size: 2rem;
     height: 50px;
@@ -110,9 +110,11 @@
 .CSSgal>s:target~.bullets>a {
     background-color: rgb(255, 255, 255);
 }
-.bullets>*:nth-child(1){
+
+.bullets>*:nth-child(1) {
     background-color: black;
 }
+
 #s1:target~.bullets>*:nth-child(1) {
     background-color: black;
 }
@@ -194,12 +196,12 @@
     text-decoration: none;
 }
 
-.CSSgal #s1{
+.CSSgal #s1 {
     margin-top: 9rem;
 }
 
-@media only screen and (max-width:600px){
-    .CSSgal .prevNext a{
+@media only screen and (max-width:600px) {
+    .CSSgal .prevNext a {
         width: 5%;
     }
 }

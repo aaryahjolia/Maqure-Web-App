@@ -1,37 +1,39 @@
-.error_page_main_div{
+.error_page_main_div {
     margin: 4rem auto;
     width: 70%;
     /* border: 1px solid red; */
     text-align: center;
 }
 
-.error_page_main_div h1{
+.error_page_main_div h1 {
     font-size: 10rem;
 }
 
-.error_page_main_div p{
+.error_page_main_div p {
     font-size: 3rem;
 }
 
-.error_page_p{
+.error_page_p {
     font-size: 1.4rem;
     text-align: center;
 }
 
-.error_page_p_link{
+.error_page_p_link {
     /* color: #00bfff; */
     color: var(--blue);
 }
-.error_page_p_link:hover{
+
+.error_page_p_link:hover {
     color: gray;
     /* border-bottom: 1px solid gray; */
 }
 
-@media only screen and (max-width: 768px){
-    .error_page_main_div h1{
+@media only screen and (max-width: 768px) {
+    .error_page_main_div h1 {
         font-size: 9rem;
     }
-    .error_page_p{
+
+    .error_page_p {
         width: 80%;
         margin: auto;
     }

@@ -74,7 +74,7 @@ function Buyers(props) {
         </div>
       </div>
 
-      <div className="buyers_page_why_prefer_maqure_main_div" id="why_buyers_prefer_maqure">  
+      <div className="buyers_page_why_prefer_maqure_main_div" id="why_buyers_prefer_maqure">
         <h1>Why Buyers prefer <span className="buyers_page_why_prefer_maqure_box_heading_maqure">maqure?</span></h1>
         <div className="buyers_page_why_prefer_maqure_box">
           <div className="buyers_page_why_prefer_maqure_box_2">
@@ -112,19 +112,19 @@ function Buyers(props) {
         <div className="buyers_page_faq_main_box">
           <div className="buyers_page_faq_box buyers_page_faq_box_1">
             <div className="buyers_page_faq_box_heading">
-            <h1>Still got <span style={{color : "var(--blue)"}}>questions?</span> Find <span style={{color : "var(--blue)"}}>answers</span> here.</h1>
+              <h1>Still got <span style={{ color: "var(--blue)" }}>questions?</span> Find <span style={{ color: "var(--blue)" }}>answers</span> here.</h1>
             </div>
 
             <FAQAccordion
-              question1 = "Does Maqure charge any subscription fees?"
-              answer1 = "No, as of now, It is completely free to operate and use the platform of Maqure."
-              question2 = "Does Maqure take care of logistics?"
-              answer2 = "Yes, Maqure provides real time freight service with a live order tracking facility."
-              question3 = "Is Maqure providing credit facility?"
-              answer3 = "Yes, Maqure is tying up with leading financial institutions to provide the credit facility"
-              question4 = "Who will take care of GST settlements?"
-              answer4 = "As a buyer, you absolutely do not have to worry about GST settlements. Maqure takes care of this as well!"
-              question5 = "Have any other questions?"
+              question1="Does Maqure charge any subscription fees?"
+              answer1="No, as of now, It is completely free to operate and use the platform of Maqure."
+              question2="Does Maqure take care of logistics?"
+              answer2="Yes, Maqure provides real time freight service with a live order tracking facility."
+              question3="Is Maqure providing credit facility?"
+              answer3="Yes, Maqure is tying up with leading financial institutions to provide the credit facility"
+              question4="Who will take care of GST settlements?"
+              answer4="As a buyer, you absolutely do not have to worry about GST settlements. Maqure takes care of this as well!"
+              question5="Have any other questions?"
             />
 
           </div>

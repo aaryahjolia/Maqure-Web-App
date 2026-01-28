@@ -10,34 +10,36 @@
     /* To Fix Navbar :  */
     position: fixed;
     top: 0%;
-    background-color: white;    
-    z-index: 1000;  
+    background-color: white;
+    z-index: 1000;
     transition: top .4s;
 }
 
 
 /* Logo video CSS */
 .content {
-	width: 100%;
-	position: sticky;
-	top:0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Logo Video CSS Ends */
 
-.navbar_subpart_1{
+.navbar_subpart_1 {
     width: 20%;
     /* border: 1px solid green; */
 }
+
 .navbar_subpart_1 a {
-    display: flex;  
+    display: flex;
     /* border: 1px solid red; */
 }
-.navbar_subpart_1 a video{
+
+.navbar_subpart_1 a video {
     width: 80%;
     /* border: 1px solid red; */
 }
@@ -90,7 +92,8 @@
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.734); */
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.734);
 }
-.lock_scroll{
+
+.lock_scroll {
     overflow: hidden;
 }
 
@@ -99,7 +102,7 @@
         padding: 0 1rem;
     }
 
-    .navbar_subpart_1{
+    .navbar_subpart_1 {
         /* border: 1px solid green; */
         width: 70%;
         padding: .6rem;
@@ -273,7 +276,7 @@
         transition: color 0.4s ease;
     }
 
-    .menu-wrap .menu>div>div>ul>li>a.partner_with_us_button_hamburger{
+    .menu-wrap .menu>div>div>ul>li>a.partner_with_us_button_hamburger {
         color: white;
         padding: .9rem 1.2rem;
         margin: 1rem auto;

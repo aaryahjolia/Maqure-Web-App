@@ -1,40 +1,40 @@
-.buyers_page_heading_section_background{
+.buyers_page_heading_section_background {
     background-size: auto;
     /* height: 70%; */
     /* border: 1px solid red; */
     max-width: 50%;
-    background-size: cover;  
-    background-position: center;   
-    position: absolute; 
+    background-size: cover;
+    background-position: center;
+    position: absolute;
     z-index: 0;
-    top:6%;    
+    top: 6%;
     right: 5%;
 }
 
-.buyers_page_heading_section_box{
+.buyers_page_heading_section_box {
     margin: 8rem 5rem;
     margin-bottom: 0;
     /* border: 1px solid red; */
-    height:max-content;
+    height: max-content;
     width: 50%;
     font-size: 1.6rem;
 }
 
-.buyers_page_heading_section_box h1{
+.buyers_page_heading_section_box h1 {
     /* font-family: VisbyRound_Heavy; */
     font-family: sans-serif;
     /* width: 90%; */
 }
 
-.buyers_page_heading_section_box h1:nth-child(2){
+.buyers_page_heading_section_box h1:nth-child(2) {
     width: 90%;
 }
 
-.buyers_page_heading_1{
+.buyers_page_heading_1 {
     color: var(--blue);
 }
 
-.buyers_page_heading_section_a{
+.buyers_page_heading_section_a {
     background-color: var(--black);
     color: var(--white);
     font-weight: 500;
@@ -47,7 +47,8 @@
     /* display: inline-block; */
     display: table;
 }
-.buyers_page_heading_section_a:hover{
+
+.buyers_page_heading_section_a:hover {
     background-color: var(--blue);
     /* border: 1px solid var(--black); */
     font-weight: 600;
@@ -61,14 +62,14 @@
 }
 
 
-.buyers_page_section_2_main_div{
+.buyers_page_section_2_main_div {
     background-color: #DDF5FD;
     padding: 4rem 0;
     /* display: block; */
     margin: 0 auto;
 }
 
-.buyers_page_section_2_main_div_heading{
+.buyers_page_section_2_main_div_heading {
     text-align: left;
     font-size: 2.6rem;
     margin: 0 auto 4rem auto;
@@ -78,7 +79,7 @@
     border-bottom: 2px solid grey;
 }
 
-.buyers_page_section_2_cards{
+.buyers_page_section_2_cards {
     width: 85%;
     /* height: 70px; */
     /* border: 1px solid red; */
@@ -87,7 +88,7 @@
     justify-content: space-between;
 }
 
-.buyers_page_section_2_card{
+.buyers_page_section_2_card {
     max-width: 22%;
     /* background-color: rgb(255, 255, 255); */
     text-align: center;
@@ -95,12 +96,13 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.buyers_page_section_2_card h1{
+
+.buyers_page_section_2_card h1 {
     font-size: 1.6rem;
     /* font-family: VisbyRound_Heavy; */
 }
 
-.buyers_page_section_2_card_image_div{
+.buyers_page_section_2_card_image_div {
     width: 85%;
     /* background-color: #f7f7f7; */
     background-color: white;
@@ -113,18 +115,18 @@
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.308);
 }
 
-.buyers_page_section_2_card_image_div img{
+.buyers_page_section_2_card_image_div img {
     max-height: 70%;
 }
 
 /* Section 3 */
 
-.buyers_page_section_3_main_div{
+.buyers_page_section_3_main_div {
     /* border: 1px solid red; */
     margin: 0rem auto;
 }
 
-.buyers_page_section_3_main_div_heading{
+.buyers_page_section_3_main_div_heading {
     font-size: 2.6rem;
     /* font-family: VisbyRound_Heavy; */
     text-align: center;
@@ -134,7 +136,7 @@
     width: 90%;
 }
 
-.buyers_page_section_3_box{
+.buyers_page_section_3_box {
     /* border: 1px solid black; */
     margin: 0rem auto;
     width: 100%;
@@ -145,11 +147,12 @@
 /* Section 3 Ends */
 
 
-.buyers_page_why_prefer_maqure_main_div{
+.buyers_page_why_prefer_maqure_main_div {
     background-color: #DDF5FD;
     margin-bottom: 4rem;
 }
-.buyers_page_why_prefer_maqure_main_div h1{
+
+.buyers_page_why_prefer_maqure_main_div h1 {
     text-align: center;
     margin: 0rem auto 0 auto;
     font-size: 2.6rem;
@@ -159,7 +162,7 @@
     width: 90%;
 }
 
-.buyers_page_why_prefer_maqure_box{
+.buyers_page_why_prefer_maqure_box {
     /* border: 1px solid red; */
     width: 85%;
     margin: 0 auto;
@@ -170,17 +173,17 @@
     align-items: center;
 }
 
-.buyers_page_why_prefer_maqure_box h1{
+.buyers_page_why_prefer_maqure_box h1 {
     font-size: 2.6rem;
 }
 
-.buyers_page_why_prefer_maqure_box_heading_maqure{
+.buyers_page_why_prefer_maqure_box_heading_maqure {
     color: var(--blue);
     text-transform: uppercase;
     /* font-family: VisbyRound_Heavy; */
 }
 
-.buyers_page_why_prefer_maqure_box_2{
+.buyers_page_why_prefer_maqure_box_2 {
     /* border: 1px solid green; */
     margin: 1rem 0;
     width: 85%;
@@ -189,7 +192,7 @@
     flex-wrap: wrap;
 }
 
-.buyers_page_why_prefer_maqure_box_2_subbox{
+.buyers_page_why_prefer_maqure_box_2_subbox {
     /* border: 1px solid black; */
     background-color: var(--blue);
     /* background-color: white; */
@@ -202,7 +205,7 @@
     box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.253);
 }
 
-.buyers_page_why_prefer_maqure_box_2_subbox_img{
+.buyers_page_why_prefer_maqure_box_2_subbox_img {
     width: 8%;
     /* border: 1px solid blue; */
     margin: .6rem;
@@ -211,13 +214,14 @@
     justify-content: center;
     align-items: center;
 }
-.buyers_page_why_prefer_maqure_box_2_subbox img{
+
+.buyers_page_why_prefer_maqure_box_2_subbox img {
     /* width: 100%; */
     /* border: 1px solid red; */
     padding: .2rem;
 }
 
-.buyers_page_why_prefer_maqure_box_2_subbox p{
+.buyers_page_why_prefer_maqure_box_2_subbox p {
     /* border: 1px solid red; */
     /* font-family: VisbyRound_DemiBold; */
     display: flex;
@@ -231,7 +235,7 @@
 
 /* FAQ */
 
-.buyers_page_faq_main_box{
+.buyers_page_faq_main_box {
     width: 85%;
     margin: 0 auto;
     /* border: 1px solid black; */
@@ -239,65 +243,67 @@
     display: flex;
 }
 
-.buyers_page_faq_box{
+.buyers_page_faq_box {
     width: 50%;
     /* border: 1px solid blue; */
 }
 
-.buyers_page_faq_box_2{
+.buyers_page_faq_box_2 {
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     margin: 2rem 0;
 }
-.buyers_page_faq_box img{
+
+.buyers_page_faq_box img {
     /* padding: 3rem; */
     width: 80%;
 }
 
-.buyers_page_faq_box_heading{
+.buyers_page_faq_box_heading {
     /* border: 1px solid green; */
     margin: 3rem 0;
     /* text-align: center; */
     font-size: 1.2rem;
 }
-.buyers_page_faq_box_1{
+
+.buyers_page_faq_box_1 {
     /* border: 1px solid red; */
     padding: 2rem;
 }
 
 
-@media only screen and (max-width:600px){
-    .buyers_page_heading_section_box{
+@media only screen and (max-width:600px) {
+    .buyers_page_heading_section_box {
         /* border: 1px solid red; */
         margin: 7rem auto;
         width: 85%;
         text-align: center;
     }
 
-    .buyers_page_heading_section_a{
+    .buyers_page_heading_section_a {
         margin: 0rem auto 6rem auto;
         text-align: center;
         /* border: 1px solid red; */
         display: table;
     }
 
-    .buyers_page_section_2_main_div{
+    .buyers_page_section_2_main_div {
         padding-bottom: 2rem;
         margin-top: 5rem;
         background-color: white;
     }
 
-    .buyers_page_section_2_main_div_heading{
+    .buyers_page_section_2_main_div_heading {
         text-align: center;
     }
 
-    .buyers_page_section_2_cards{
+    .buyers_page_section_2_cards {
         flex-direction: column;
         align-items: center;
     }
 
-    .buyers_page_section_2_card{
+    .buyers_page_section_2_card {
         max-width: 90%;
         margin: 1rem 0;
     }
@@ -306,47 +312,47 @@
         padding: 2.2rem;
     }
 
-    .buyers_page_why_prefer_maqure_box_2{
+    .buyers_page_why_prefer_maqure_box_2 {
         flex-direction: column;
         align-items: center;
     }
 
-    .buyers_page_why_prefer_maqure_box{
+    .buyers_page_why_prefer_maqure_box {
         width: 90%;
     }
 
-    .buyers_page_why_prefer_maqure_box_2_subbox{
+    .buyers_page_why_prefer_maqure_box_2_subbox {
         width: 100%;
     }
 
-    .buyers_page_why_prefer_maqure_box_2_subbox img{
+    .buyers_page_why_prefer_maqure_box_2_subbox img {
         padding: 0;
     }
 
-    .buyers_page_why_prefer_maqure_box_2_subbox_img{
+    .buyers_page_why_prefer_maqure_box_2_subbox_img {
         width: 10%;
     }
 
-    .buyers_page_faq_main_box{
+    .buyers_page_faq_main_box {
         flex-direction: column-reverse;
         align-items: center;
         width: 100%;
     }
 
-    .buyers_page_faq_box{
+    .buyers_page_faq_box {
         width: 100%;
         margin-bottom: 3rem;
     }
 
-    .buyers_page_faq_box img{
+    .buyers_page_faq_box img {
         width: 90%;
     }
 
-    .buyers_page_faq_box_heading h1{
+    .buyers_page_faq_box_heading h1 {
         text-align: center;
     }
 
-    .buyers_page_faq_box_2{
+    .buyers_page_faq_box_2 {
         margin-bottom: 0;
     }
 }

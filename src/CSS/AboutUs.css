@@ -1,4 +1,5 @@
-.about_us_page_blue_background,.about_us_page_blue_background_2{
+.about_us_page_blue_background,
+.about_us_page_blue_background_2 {
     width: 190%;
     height: 60%;
     margin-top: 12rem;
@@ -7,19 +8,20 @@
     transform: skewY(20deg);
     position: absolute;
 }
-.about_us_page_blue_background_2{
+
+.about_us_page_blue_background_2 {
     margin-top: 75rem;
     transform: skewY(-20deg);
 }
 
-.about_us_company_and_team_heading{
+.about_us_company_and_team_heading {
     text-align: center;
     font-size: 2.6rem;
     margin: 12rem 0 8rem 0;
     font-family: VisbyRound_Heavy;
 }
 
-.about_us_company_and_team_main_box{
+.about_us_company_and_team_main_box {
     /* width: 89%; */
     width: 80%;
     margin: 3rem auto;
@@ -28,7 +30,7 @@
     justify-content: space-between;
 }
 
-.about_us_company_and_team_box_1{
+.about_us_company_and_team_box_1 {
     width: 50%;
     padding: 2rem;
     display: flex;
@@ -36,26 +38,27 @@
     font-size: 1.5rem;
 }
 
-.about_us_company_and_team_box_2{
+.about_us_company_and_team_box_2 {
     display: flex;
     /* border: 1px solid green; */
     width: 45%;
 }
-.about_us_company_and_team_box_2 img{
+
+.about_us_company_and_team_box_2 img {
     width: 80%;
     margin: auto;
     border-radius: 10%;
     padding: .5rem;
 }
 
-.about_us_founders_heading{
+.about_us_founders_heading {
     font-family: VisbyRound_Heavy;
     text-align: center;
     font-size: 2.6rem;
     margin: 12rem 0 6rem 0;
 }
 
-.about_us_founders_main_box{
+.about_us_founders_main_box {
     width: 80%;
     margin: 1rem auto;
     display: flex;
@@ -63,13 +66,13 @@
     /* border: 1px solid red; */
 }
 
-.about_us_founders_box{
+.about_us_founders_box {
     width: 45%;
     padding: 3rem;
     position: relative;
 }
 
-.about_us_founders_box img{
+.about_us_founders_box img {
     border-radius: 10%;
     position: relative;
     /* backdrop-filter: blur(3px); */
@@ -77,32 +80,36 @@
     /* mask-image: linear-gradient(rgb(210, 18, 18), red); */
 }
 
-.about_us_founders_box_image_text{
+.about_us_founders_box_image_text {
     position: absolute;
     bottom: 14%;
     left: 14%;
     font-size: 1.3rem;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
 
-    .about_us_company_and_team_heading{
+    .about_us_company_and_team_heading {
         margin: 8rem 0;
     }
-    .about_us_company_and_team_main_box{
+
+    .about_us_company_and_team_main_box {
         flex-direction: column-reverse;
     }
-    .about_us_company_and_team_box_1{
+
+    .about_us_company_and_team_box_1 {
         width: 100%;
         text-align: center;
         padding: 4rem 0;
     }
-    .about_us_company_and_team_box_2{
+
+    .about_us_company_and_team_box_2 {
         /* border: 1px solid red; */
         width: 100%;
         padding: 0rem;
     }
-    .about_us_company_and_team_box_2 img{
+
+    .about_us_company_and_team_box_2 img {
         padding: 0;
         width: 100%;
     }

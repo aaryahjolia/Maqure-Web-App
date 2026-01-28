@@ -13,7 +13,7 @@
 } */
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -22,43 +22,49 @@
     /* font-family: VisbyRound_Bold; */
     font-family: sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-:root{
+
+:root {
     --black: black;
     --white: white;
     --blue: #39B4FF;
     --blue_navbar: #39b3ffeb;
 }
-.active_button_color{
+
+.active_button_color {
     /* color: var(--black) !important; */
     color: var(--blue) !important;
 }
-.display_none_to_desktop{
+
+.display_none_to_desktop {
     display: none;
 }
-.display_none_to_mobile{
+
+.display_none_to_mobile {
     display: block;
 }
 
 
-@media only screen and (max-width:768px){
-    .display_none_to_desktop{
+@media only screen and (max-width:768px) {
+    .display_none_to_desktop {
         display: block;
     }
-    .display_none_to_mobile{
+
+    .display_none_to_mobile {
         display: none;
     }
 }
 
-.coming_soon{
+.coming_soon {
     margin: 11.5rem 0;
     text-align: center;
 }
 
-.chat_widget{
+.chat_widget {
     position: fixed;
     /* border: 1px solid red; */
     right: 2%;
@@ -75,7 +81,7 @@ a{
     box-shadow: 1px 1px 10px black;
 }
 
-.chat_widget i{
+.chat_widget i {
     font-size: 2rem;
     padding: 1rem;
     /* margin-left: -.3rem; */
