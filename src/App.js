@@ -25,31 +25,31 @@ function App() {
   // const setActiveLinkFunction = (link)=>{
   //   setActiveLink(link);
   // }
-  
+
   return (
     <>
-          <Router>
-            <ScrollToTop/>
-            <Navbar/>
+      <Router>
+        <ScrollToTop />
+        <Navbar />
 
-            <Routes>
+        <Routes>
 
-              <Route exact path="/" element={<HomePage />}></Route>
+          <Route exact path="/" element={<HomePage />}></Route>
 
-              {/* <Route exact path="/WhatWeDo" element={<WhatWeDo/>}></Route> */}
+          {/* <Route exact path="/WhatWeDo" element={<WhatWeDo/>}></Route> */}
 
-              <Route exact path="/Buyers" element={<Buyers/>}></Route>
-              <Route exact path="/Sellers" element={<Sellers/>}></Route>
-              {/* <Route exact path="/AboutUs" element={<AboutUs/>}></Route> */}
-              <Route exact path="/GetCreditPage" element={<GetCreditPage/>}></Route>
+          <Route exact path="/Buyers" element={<Buyers />}></Route>
+          <Route exact path="/Sellers" element={<Sellers />}></Route>
+          {/* <Route exact path="/AboutUs" element={<AboutUs/>}></Route> */}
+          <Route exact path="/GetCreditPage" element={<GetCreditPage />}></Route>
 
-              {/* For Error 404 Page when someone enters random url */}
-              <Route path="*" element={<ErrorPage/>}></Route>
+          {/* For Error 404 Page when someone enters random url */}
+          <Route path="*" element={<ErrorPage />}></Route>
 
-            </Routes>
+        </Routes>
 
-            <Footer/>
-          </Router>
+        <Footer />
+      </Router>
 
     </>
   );

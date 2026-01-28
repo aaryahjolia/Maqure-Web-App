@@ -1,6 +1,5 @@
 import React from 'react'
 import "../CSS/Buyers.css"
-// import { Link } from 'react-router-dom'
 
 import FAQImage from "../Images/Buyers/Buyers_Page_FAQ_section.png"
 import FAQAccordion from './FAQAccordion'
@@ -26,7 +25,6 @@ function Buyers(props) {
 
   return (
     <>
-      {/* <div className="buyers_page_heading_section_background"></div> */}
       <div className="buyers_page_heading_section_box">
         <h1 className="buyers_page_heading_1">Ease of Procure on  Maqure</h1>
         <h1 className="buyers_page_heading_2">At the competitive price in the market</h1>

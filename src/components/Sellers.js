@@ -108,7 +108,6 @@ function Sellers() {
           <div className="sellers_page_faq_box sellers_page_faq_box_1">
             <div className="sellers_page_faq_box_heading">
               <h1>Still got <span style={{ color: "var(--blue)" }}>questions?</span> Find <span style={{ color: "var(--blue)" }}>answers</span> here.</h1>
-              {/* <h1>Find answers here.</h1> */}
             </div>
 
             <FAQAccordion

@@ -20,43 +20,50 @@ function Navbar(props) {
 
     React.useEffect(() => {
         const video = document.getElementById("video_id");
+        if (!video) return;
+
         let previousWindowScrollYValue = window.scrollY;
-        let play_pause = 0; // 0: at start, 1: at 1.8s mark
-        let lock = 0; // 0: ready to play down, 1: ready to play up
+
+        // playStatus: 0 = at start, 1 = at middle (1.9s)
+        let playStatus = 0;
+        // scrollDirectionState: 0 = scrolled up (ready to play down), 1 = scrolled down (ready to play up)
+        let scrollDirectionState = 0;
 
         const handleScroll = () => {
-            if (!video) return;
-
             const currentScrollY = window.scrollY;
+            const scrollDiff = currentScrollY - previousWindowScrollYValue;
 
-            // Scroll Down Logic
-            if (currentScrollY > previousWindowScrollYValue && lock === 0 && play_pause === 0) {
-                lock = 1;
+            // Small threshold to ignore tiny scrolls
+            if (Math.abs(scrollDiff) < 5) return;
+
+            // Scroll Down Logic: transition from state 0 to state 1
+            if (scrollDiff > 0 && scrollDirectionState === 0 && playStatus === 0) {
+                scrollDirectionState = 1;
                 video.playbackRate = 2;
                 video.play();
 
                 const onTimeUpdateDown = () => {
-                    if (video.currentTime >= 1.9 && play_pause === 0) {
+                    if (video.currentTime >= 1.9) {
                         video.pause();
                         video.currentTime = 2;
-                        play_pause = 1;
+                        playStatus = 1;
                         video.removeEventListener("timeupdate", onTimeUpdateDown);
                     }
                 };
                 video.addEventListener("timeupdate", onTimeUpdateDown);
             }
-            // Scroll Up Logic
-            else if (currentScrollY < previousWindowScrollYValue && lock === 1 && play_pause === 1) {
-                lock = 0;
+            // Scroll Up Logic: transition from state 1 back to state 0
+            else if (scrollDiff < 0 && scrollDirectionState === 1 && playStatus === 1) {
+                scrollDirectionState = 0;
                 video.playbackRate = 2;
                 video.play();
 
                 const onTimeUpdateUp = () => {
-                    // Play until near the end (4s) or when ended
-                    if ((video.currentTime >= video.duration - 0.1 || video.ended) && play_pause === 1) {
+                    // Play until near the end or ended
+                    if (video.currentTime >= video.duration - 0.1 || video.ended) {
                         video.pause();
-                        video.currentTime = 0; // Reset for next cycle
-                        play_pause = 0;
+                        video.currentTime = 0;
+                        playStatus = 0;
                         video.removeEventListener("timeupdate", onTimeUpdateUp);
                     }
                 };
@@ -66,7 +73,6 @@ function Navbar(props) {
             previousWindowScrollYValue = currentScrollY;
         };
 
-        window.onscroll = null; // Clear any old manual assignment
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
