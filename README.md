@@ -21,7 +21,7 @@ To run the project locally, follow these steps:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/maqure.git
+    git clone https://github.com/aaryahjolia/Maqure-Web-App.git
     ```
 2.  **Install dependencies**:
     ```bash
